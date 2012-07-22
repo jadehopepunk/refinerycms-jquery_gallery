@@ -1,4 +1,4 @@
-- unless page.images.empty?
+- if page && !page.images.empty?
   #page_images
     %ul#gallery
       - page.images.each do |image|
