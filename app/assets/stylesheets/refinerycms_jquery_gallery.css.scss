@@ -1,0 +1,38 @@
+#body_content #page_images, #page_images {
+  background-color: black;
+  padding: 10px 5px;
+  
+  #gallery {
+    margin: 0 auto;
+    
+    .pointer {
+      border-bottom-color: #AAA;
+    }
+    
+    img {
+      border: 0;
+    }
+  }
+}
+
+
+.refinerycms-properties {
+  #body_content {
+    #page_images {
+      background-color: black;
+      padding: 10px 5px;
+      
+      #gallery {
+        margin: 0 auto;
+        
+        .pointer {
+          border-bottom-color: #AAA;
+        }
+        
+        img {
+          border: 0;
+        }
+      }
+    }
+  }
+}

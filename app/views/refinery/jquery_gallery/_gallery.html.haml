@@ -1,0 +1,18 @@
+- unless page.images.empty?
+  #page_images
+    %ul#gallery
+      - page.images.each do |image|
+        %li
+          = image_tag(image.thumbnail("570x270#c").url)
+
+    = content_for :javascripts do
+      :javascript
+          $(document).ready(function(){
+            $('#gallery').galleryView({
+              panel_width: 640,
+              panel_height: 300,
+              frame_width: 75,
+              frame_height: 75,
+              theme_path: '/assets/gallery_view/themes/dark'
+            });
+          });    
