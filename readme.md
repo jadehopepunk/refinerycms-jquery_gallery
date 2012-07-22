@@ -11,7 +11,11 @@ Refinery::Page, it could be anything that supports a method called "images" that
 an array of image objects which in turn can supply a url via "image.thumbnail("570x270#c").url".
 
 If you wish to do this with all pages, simply add a call to this _gallery partial in your
-_content_page partial.
+_content_page partial:
+
+```erb
+<%= render 'refinery/jquery_gallery/gallery', :page => @page %>
+```
 
 ## Installation
 
