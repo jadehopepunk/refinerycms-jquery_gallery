@@ -21,6 +21,12 @@ _content_page partial:
 
 Simply install the gem. There is no generator or migrations.
 
+Add the javascript to your application.js
+
+```javascript
+//= require refinerycms_jquery_gallery
+```
+
 You probably want to add a reference to the stylesheet "refinerycms_jquery_gallery" in your application.css.
 
 ## How to build this extension as a gem
