@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.name              = 'refinerycms-jquery_gallery'
   s.homepage          = 'https://github.com/craigambrose/refinerycms-jquery_gallery'
-  s.version           = '1.0'
+  s.version           = '1.0.1'
   s.description       = 'Ruby on Rails Jquery Gallery extension for Refinery CMS'
   s.date              = '2012-07-09'
   s.summary           = 'Jquery Gallery extension for Refinery CMS'
